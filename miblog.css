@@ -57,21 +57,25 @@ table {
 
 a { text-decoration: none; }
 
-a:link { color: black; }
+a:link, a:visited { color: black; }
 
-/* visited link */
-a:visited {  color: green;}
+/* visited link
+a:visited {  color: black;}*/
 
 /* mouse over link */
-a:hover {  color: blue;}
+a:hover, a:active {  color: blue;}
 
-/* selected link */
-a:active {  color: blue;}
+/* selected link
+a:active {  color: blue;}*/
 
 
-blockquote a:link { color: blue; }
+blockquote a:link, blockquote:visited { color: blue; }
 
-blockquote a:hover { color: grey; }
+/*blockquote a:visited { color: blue; }*/
+
+blockquote a:hover, blockquote a:active { color: grey; }
+
+/*blockquote a:active { color: grey; }*/
 
 h1 {
         font: bold 20px 'Montserrat', sans-serif;
