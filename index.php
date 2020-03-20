@@ -10,8 +10,8 @@
 </head>
 <body>
   <div id="agrupar">
-    <header>
-    <h1>Este es el título principal del sitio web</h1>
+    <header id="cabecera">
+    <h1>Blog de miguelius</h1>
     </header>
     <nav id="menu">
       <ul>
