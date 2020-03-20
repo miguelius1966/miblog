@@ -11,7 +11,7 @@
 <body>
   <div id="agrupar">
     <header id="cabecera">
-    <h1>Blog de miguelius</h1>
+    <h1><a href="index.php">Blog de miguelius</a></h1>
     </header>
     <nav id="menu">
       <ul>
@@ -19,38 +19,10 @@
       </ul>
     </nav>
     <section id="seccion">
-      <article>
-        <header>
-          <hgroup>
-            <h1>Título del mensaje uno</h1>
-            <h2>Subtítulo del mensaje uno</h2>
-          </hgroup>
-          <p>publicado 10-12-2011</p>
-        </header>
-        Este es el texto de mi primer mensaje
-        <figure><img src=”miguel-tres-gatitos.jpg”>
-          <figcaption>Esta es la imagen del primer mensaje</figcaption>
-        </figure>
-        <footer>
-          <p>comentarios (0)</p>
-        </footer>
-      </article>
-      <article>
-        <header>
-          <hgroup>
-            <h1>Título del mensaje dos</h1>
-            <h2>Subtítulo del mensaje dos</h2>
-          </hgroup>
-          <p>publicado 15-12-2011</p>
-        </header>Este es el texto de mi segundo mensaje
-        <footer>
-          <p>comentarios (0)</p>
-        </footer>
-      </article>
+      <?php printArticulos() ?>
     </section>
     <aside id="columna">
-      <blockquote>Mensaje número uno</blockquote>
-      <blockquote>Mensaje número dos</blockquote>
+      <?php printTitulos() ?>
     </aside>
     <footer id="pie">Derechos Reservados &copy; 2020</footer>
   </div>
